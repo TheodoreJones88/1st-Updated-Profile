@@ -1,0 +1,196 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+    margin: 0;
+    color:magenta;
+    width: 100%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    margin:0% 2%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    max-width: 100%;
+    color: silver;
+}
+#name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr {
+    border-top: 1px solid silver;
+    width: 100%;
+}
+a { 
+    color: inherit;
+} 
+ul {
+    display: flex;
+    list-style: none;
+    min-width: 100%;
+    padding-inline-start: 0px;
+}
+ul li {
+    font-size: large;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile img {
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid silver;
+}
+h2 {
+    color: silver;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cardsA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cardsB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid silver;
+    background-color: dimgray;
+    height: 400px;
+    width: 350px;
+    margin: 10px;
+}
+.card h3{
+    border: 2px solid silver;
+    padding: 3px 10px;
+    background-color: black;
+} 
+.card p {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    color: silver;
+    margin: 0px 20px;
+}
+.buttons{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+button{
+    height: 30px;
+    width: 70%;
+    border-radius: 12px;
+    background-color: black;
+    color: magenta;
+    border: 2px solid silver; 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{ 
+    display: flex;
+    align-items: flex-end;
+    background-color: black;  
+    color: silver;
+    justify-content: center;
+}
+
+@media all and (min-width: 760px) {
+    header{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;
+    }
+    #content{
+        flex-direction: row;
+    }
+    #content h2{
+        display: flex;
+        justify-content: center;
+    }
+    #content p{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px 10px;
+    }
+    #about{
+        display: flex;
+        justify-content: center;
+    }
+    #port{
+        display: flex;
+        justify-content: center;
+    }
+    #contact{
+        display: flex;
+        justify-content: center;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .group{
+        display: flex;
+        flex-direction: column;
+    }
+    #cardsA{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #cardsB{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    form{
+        align-items: flex-start;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 250px;
+        margin: 10px 0px;
+    }
+    #fill{
+        border: 2px solid silver; 
+        padding: 7px 7px;
+    }
+    iframe{
+        height: 100%;
+    }
+
+    #map{
+        border: 2px solid silver; 
+        padding: 7px 7px;
+    }
+}

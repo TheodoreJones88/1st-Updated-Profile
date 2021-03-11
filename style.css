@@ -185,8 +185,6 @@ footer{
     section{
         display: flex;
         flex-direction: column;
-        /* height: 300px;
-        margin: 10px 0px; */
     }
     #formMap{
         display: flex;

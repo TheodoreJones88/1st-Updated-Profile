@@ -114,6 +114,7 @@ button{
     color: magenta;
     border: 2px solid silver; 
     margin: 0% 10%;
+    cursor: pointer;
 }
 form{
     display: flex;
@@ -130,6 +131,9 @@ footer{
     background-color: black;  
     color: silver;
     justify-content: center;
+}
+a {
+    cursor: pointer;
 }
 
 @media all and (min-width: 760px) {
